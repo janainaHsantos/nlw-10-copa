@@ -44,7 +44,7 @@ body * {
 }
 
 header {
-  margin-bottom: 63px;
+  margin-bottom: 53px;
   text-align: center;
 }
 
@@ -106,7 +106,7 @@ header {
 }
 
 .card ul li strong {
-  font-weight: 900;
+  font-weight: 900px;
   font-size: 36px;
   line-height: 125%;
 
@@ -127,12 +127,12 @@ header {
 
 .card {
   opacity: 0;  
-  animation: appear .2s forwards;
+  animation: appear .5s forwards;
 }
 
 @keyframes appear {
   0% {
-    transform: translateY(-50px);
+    transform: translateY(-60px);
     opacity: 0;
   }
   100% {
